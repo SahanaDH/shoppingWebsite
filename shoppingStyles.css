@@ -1,0 +1,365 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(207deg, rgba(238, 174, 202, 1) 0%, rgba(169, 235, 187, 1) 100%);
+    font-family: 'Bruno Ace', cursive;
+
+
+    /* background-image: linear-gradient(to right top, #5eead4, pink); */
+
+}
+
+/* body:not(.container){
+    overflow-y: scroll;
+} */
+.mainMenu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+.mainMenu nav li {
+    margin: 0 50px;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.mainMenu nav a {
+    color: #413d3d;
+    text-decoration: none;
+}
+
+.mainMenu nav a:hover {
+    color: #050505;
+    transform: scale(2);
+    font-weight: bold;
+}
+
+.mainMenu img {
+
+    position: fixed;
+    top: 0;
+    /* left: 5%; */
+    top: 0%;
+    width: 15%;
+    /* set the width of the image to 50% of its original size */
+    height: auto;
+    /* maintain the aspect ratio of the image */
+
+
+}
+
+.mainMenu img:hover {
+    opacity: 0.8;
+    /* reduce the opacity of the image to 80% on hover */
+}
+
+/* label{
+display: block;
+font-size: 5em;
+justify-content: center;
+position:fixed;
+top: 50%;
+left: 25%;
+
+
+
+} */
+
+
+#home-screen {
+    top: 30%;
+    width: 100%;
+    /* overflow-y: scroll; */
+    /* height: calc(100vh - 80px); */
+}
+
+#home {
+    /* top: 50%; */
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* gap: 40px; */
+}
+
+#homeProduct {
+    /* width: 700px; */
+    /* text-align: center; */
+
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#homeProductName {
+    /* font-family: 'Raleway', sans-serif; */
+
+
+}
+
+#home img {
+    width: 380px;
+}
+
+#homeProductButtons {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#homeProductButtons a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    width: 180px;
+    height: 35px;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.btn:active {
+    transform: scale(0.8);
+}
+
+.btn:hover {
+    background-color: grey;
+    opacity: 0.4;
+}
+
+#headPhone-white {
+
+
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    border: 1px solid #050505;
+    background-color: white;
+
+
+    /* position: fixed;
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 500px;
+
+    height: 360px;
+    padding: 50px; */
+    /* margin-top: 80px;
+    
+
+height: 100px;
+width: 100%;
+    background-color: white; */
+
+    /* border-radius: 20px; */
+    /* display: none;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+
+    position:relative;
+    gap: 40px; */
+    /* left:  50%;
+    width: 600px;
+    display: flex;
+    gap: 100px;
+    width: 100%;
+     */
+
+
+    /* flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+#headPhone-white img {
+    height: 360px;
+}
+
+#headPhone-white img:hover {
+    transform: scale(1.4);
+}
+
+#buy-button {
+    /* width: 100%;
+    height: 100px;
+    display: flex; */
+    /* background-color: #374151; */
+    align-items: center;
+    justify-content: center;
+}
+
+#buy-button button {
+    /* height: 60px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #899ab1; */
+    /* color: white; */
+    /* text-transform: uppercase; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none; */
+    width: 180px;
+    height: 35px;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* background-color: #374151; */
+#buy-button a {
+    text-decoration: none;
+}
+
+/* #buy-button button:hover { */
+/* background-color: #374151; */
+/* background-color: #374151; */
+
+
+/* font-weight: 600; */
+/* } */
+
+#buy-button button:active {
+    transform: scale(0.8);
+}
+
+#headPhone-Black {
+
+    padding-top: 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    /* top: 900px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+}
+
+#bletooth2-head {
+    font-size: 20px;
+}
+
+#bluetoth-details {
+    text-align: left;
+    width: 500px;
+    justify-content: left;
+}
+
+#headPhone-Black img {
+    width: 380px;
+}
+
+
+
+  #sale-section{
+    height: calc(100vh - 80px);
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    /* padding-top: 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; */
+    
+  }
+
+  #sale-section a{
+    text-decoration: none;
+    color: black;
+  }
+
+  #sale-section img:hover{
+    transform: scale(1.4);
+  }
+
+  #buyProducts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .itemNumber{
+    background-color: #FFFFFF;
+    /* width: 220px; */
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .itemNumber img{
+    width: 220px;
+    margin-bottom: 10px;
+    background-color: #e5e7eb;
+  }
+  .itemNumber h2{
+    /* font-size: 16px;
+    height: 40px;
+    width: calc(100% - 20px);
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500; */
+  }
+  .itemNumber p{
+    /* font-size: 17px;
+    margin: 0; */
+  }
+
+  .price-normal{
+    color: red;
+    /* padding-bottom: 10px; */
+  }
