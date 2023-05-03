@@ -1,0 +1,71 @@
+#products{
+    padding: 0 40px 0 40px;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    width: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+#products h1{
+    margin-top: 50px;
+}
+#lista{
+    height: auto;
+    width: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.item{
+    background-color: #FFFFFF;
+    height: 320px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 5px;
+}
+#lista a{
+    text-decoration: none;
+    color: black;
+}
+#lista img:hover{
+    transform: scale(1.4);
+}
+.item img{
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #e5e7eb;
+}
+.item h2{
+    font-size: 16px;
+    height: 40px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.item p{
+    font-size: 17px;
+    margin: 0;
+}
+.promoPreco{
+    color: red;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 900px){
+    #products h1{
+        text-align: center;
+    }
+    #products{
+        height: calc(100vh - 130px);
+    }
+}

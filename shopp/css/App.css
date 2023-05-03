@@ -1,0 +1,230 @@
+body{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right top, #5eead4, pink);
+}
+#corpo{
+  width: 100%;
+  overflow-y: scroll;
+  height: calc(100vh - 80px);
+}
+#home{
+  height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#homeProduct{
+  width: 700px;
+  text-align: center;
+}
+#homeProductName{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+#home img{
+  width: 380px;
+}
+#homeProductButtons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#homeProductButtons a{
+  text-decoration: none;
+  color: black;
+}
+.btn{
+  width: 180px;
+  height: 35px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:active{
+  transform: scale(0.8);
+}
+.btn:hover{
+  background-color: grey;
+  opacity: 0.4;
+}
+#publi{
+  padding-top: 80px;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+#publiText{
+  width: 500px;
+  text-align: justify;
+  font-family: 'Quicksand', sans-serif;
+}
+#publiText p{
+  font-size: 18px;
+}
+#publiText h1{
+  font-size: 30px;
+}
+#buy{
+  height: calc(100vh - 80px);
+  padding-top: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#buy a{
+  text-decoration: none;
+  color: black;
+}
+#buy img:hover{
+  transform: scale(1.4);
+}
+#buyProducts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.itemPromo{
+  background-color: #FFFFFF;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.itemPromo img{
+  width: 220px;
+  margin-bottom: 10px;
+  background-color: #e5e7eb;
+}
+.itemPromo h2{
+  font-size: 16px;
+  height: 40px;
+  width: calc(100% - 20px);
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.itemPromo p{
+  font-size: 17px;
+  margin: 0;
+}
+.precoNormal{
+  text-decoration: line-through;
+}
+.promoPreco{
+  color: red;
+  padding-bottom: 10px;
+}
+#contact{
+    height: calc(100vh - 160px);
+    padding: 80px 40px 80px 40px;
+    width: calc(100% - 80px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#contact h2{
+  width: calc(50% - 40px);
+  font-size: 40px;
+}
+#formasContato{
+  width: calc(50% - 40px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: left;  
+  gap: 60px;
+}
+#endereco, #redes, #links{
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#links a{
+  text-decoration: none;
+  color: black;
+}
+#links a:hover{
+  font-weight: 600;
+}
+@media screen and (max-width: 900px){
+  #contact h2{
+    width: 100%;
+    text-align: center;
+  }
+  #formasContato{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #contact{
+    height: auto;
+  }
+  #buy{
+    height: auto;
+  }
+  #home{
+    height: auto;
+  }
+  #homeProduct{
+    width: calc(100% - 40px);
+  }
+  #publi{
+    height: auto;
+    padding: 80px 20px 0 20px;
+    gap: 40px
+  }
+  #homeProductButtons{
+    width: calc(100% - 80px);
+    padding: 0 40px;
+  }
+  #publi img{
+    width: 100%;
+    padding: 0;
+  }
+  .btn{
+    width: 280px;
+    height: 60px;
+    font-size: 22px;
+  }
+  #publiText h1{
+    text-align: center;
+  }
+  #publiText{
+    width: 100%;
+  }
+  #corpo{
+    height: calc(100vh - 130px);
+  }
+}

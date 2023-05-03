@@ -1,0 +1,104 @@
+#corpoCarrinho{
+    height: calc(100vh - 80px);
+    overflow-y: scroll; 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#produtoCarrinho{
+    padding: 0 40px 0 40px;
+    height: auto;
+    width: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Quicksand', sans-serif;
+}
+#fundoCarrinho{
+    margin-top: 80px;
+    width: 900px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: justify;
+    gap: 10px;
+}
+#fundoCarrinho img{
+    height: 250px;
+    background-color: #e5e7eb;
+ }
+#itenCarrinho{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    gap: 40px;
+}
+#btnIncrementar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#btnIncrementar button{
+    height: 30px;
+    width: 30px;
+}
+#btnCompre button{
+    height: 60px;
+    width: 280px;
+    font-size: 20px;
+    background-color: #4b5563;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+}
+#fundoCarrinho h2{
+    width: calc(100% - 20px);
+    text-align: right;
+    color: red;
+    margin: 0;
+    padding-right: 20px;
+}
+#fundoCarrinho h1{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+#fundoCarrinho h3{
+    font-size: 30px;
+    margin: 0;
+}
+@media screen and (max-width: 900px) {
+    #produtoCarrinho{
+        width: 100%;
+        padding: 20px 0 50px 0;
+        height: auto;
+    }
+    #fundoCarrinho{
+        width: calc(100% - 40px);
+        padding: 20px;
+        border-radius: 0;
+        margin-top: 0;
+    }
+    #fundoCarrinho img{
+        width: 100%;
+        height: auto;
+    }
+    #itenCarrinho{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #corpoCarrinho{
+        height: calc(100vh - 130px);
+    }
+}
